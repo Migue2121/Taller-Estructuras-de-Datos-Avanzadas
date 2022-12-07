@@ -1,11 +1,9 @@
 # Taller Estructuras de Datos Avanzadas
 
-<img src="https://user-images.githubusercontent.com/116528826/206042675-3efa56d6-42f3-48bd-88cb-7e546cc7aa5a.png" width="225" height="225"/><img src="https://user-images.githubusercontent.com/116528826/206077132-98068585-6729-439f-b212-a1fea3fb7c4b.png"
-height="225"/><img src="https://codeforces.org/s/96362/images/codeforces-sponsored-by-ton.png"
-width="225" height="225"/>![image](https://user-images.githubusercontent.com/116528826/206045357-ed65e883-9fb1-4243-a453-391b6e21a76c.png)
+<img src="https://user-images.githubusercontent.com/116528826/206042675-3efa56d6-42f3-48bd-88cb-7e546cc7aa5a.png" height="225"/>![image](https://user-images.githubusercontent.com/116528826/206045357-ed65e883-9fb1-4243-a453-391b6e21a76c.png)
 
 
-El presente taller lo que busca es que atreves de diferentes problemas tomados de los sitio web(Leetcode,codeForce,AtCoder) implementemos estructuras de datos avanzadas, de acuerdo a cada problema para encontrar la solución más óptimas. Se realiza un análisis de cada solución propuesta de acuerdo a la estructura implementada. 
+El presente taller lo que busca es que atreves de diferentes problemas tomados del sitio web (Leetcode) implementemos estructuras de datos avanzadas de acuerdo a cada problema para encontrar la solución más óptimas. Se realiza un análisis de cada solución propuesta de acuerdo a la estructura implementada. 
 
 
 # EJERCICIO  1
@@ -47,8 +45,7 @@ Un árbol de búsqueda binario válido (BST) tiene TODOS los hijos a la izquierd
 2. Si el valor de un nodo no está dentro de estos límites, devuelve falso
 3. Validar recursivamente los hijos izquierdos del nodo, con el límite máximo establecido en el valor del nodo
 4. Validar recursivamente los hijos correctos del nodo, con el límite mínimo establecido en el valor del nodo
- 
- ![image](https://user-images.githubusercontent.com/116702376/206080081-4ec7f87c-3ad3-47b8-88ca-1bdd8064887f.png)
+ ![image](https://user-images.githubusercontent.com/116702376/206073892-cf51c089-8974-4512-b3e9-de34d439ceac.png)
 
 
 # EJERCICIO 4
@@ -191,7 +188,27 @@ como se cumple la condición, retorna el resultado (res = 6).
 Se encuentra el valor y se imprime el valor del nodo.
 
 ![image](https://user-images.githubusercontent.com/113552219/206065004-f8f67a97-6657-4abe-a5c8-a16a209c772c.png)
+
 # EJERCICIO 6
+Find if Path Exists in Graph:
+en el siguiente ejercicio nos daba como entrada un arreglos de arreglos donde estos últimos contienen parejas de números las cuales serán nuestros nodos, contaremos con un nodo inicio y un nodo destino los cuales serán números; teniendo en cuenta cuenta que nuestro inicio será 0 y nuestro destino será cualquier número del array que mayor a 0, donde secuencialmente tendremos que seguir un camino desde nuestro inicio hasta el destino.
+
+Tenemos un gráfico bidireccional en este problema, la tarea es: para los dos nodos sourcey destinationen este gráfico, debemos verificar si existe una ruta desde sourcea destination.
+![image](https://user-images.githubusercontent.com/104114772/206078911-f2ffec2a-244c-4352-8057-689489f7f146.png)
+*En el primer gráfico, existe un camino de 0a 2.
+
+*En el segundo gráfico, no podemos encontrar un camino de 0a 7.
+
+Ahora, tenemos que verificar si existe una ruta entre dos nodos dados. Una cosa más para notar, ya que tenemos que verificar si existe una ruta entre dos nodos dados, esto también sugiere que dos nodos deben estar conectados , por lo tanto, este problema también se puede resolver usando Disjoint Set Union , donde verificamos si ambos nodos pertenecen al mismo grupo o no.
+
+
+
+
+
+
+
+
+
 # EJERCICIO 7
 
 Nodo auxiliar : color naranja
@@ -242,44 +259,23 @@ Esto se repite por todo el arreglo de la siguiente manera:
 
 ![image](https://user-images.githubusercontent.com/113552219/206065647-fbc49fac-2822-4c8d-bcad-9ce462c8d5fe.png)
 
-Se asigna el valor de silver medal por ser equivalente a dos.
-
 ![image](https://user-images.githubusercontent.com/113552219/206065675-d0ceaf37-c41c-4480-8f37-1306009b80c9.png)
 
 ![image](https://user-images.githubusercontent.com/113552219/206065783-8bda356a-f594-4808-81be-61d926638abd.png)
 
 ![image](https://user-images.githubusercontent.com/113552219/206065805-deadcf02-6b10-4a50-b11b-a90abfd6b24c.png)
 
-Luego se asigna el valor de bronze medal por ser equivalente a 3
-
 ![image](https://user-images.githubusercontent.com/113552219/206065820-85f3ca17-cc48-4d8c-8896-e94b7f4e6787.png)
 
 ![image](https://user-images.githubusercontent.com/113552219/206065845-05685b12-48ff-4a4c-aa90-b076c12cc6ba.png)
-
-Asi se continua con los demas valores asignandole el valor del nodo en la posicion n.
 
 ![image](https://user-images.githubusercontent.com/113552219/206065968-89f957ec-fbc9-4948-8fec-54f4c7c9fb98.png)
 
 ![image](https://user-images.githubusercontent.com/113552219/206065983-31424e4e-6f5b-4de4-b336-aa26c1df1c46.png)
 
 ![image](https://user-images.githubusercontent.com/113552219/206065995-af041092-5233-47f2-aba4-5056a64888bd.png)
-# EJERCICIO  8
-Operaciones de montón:
-Para dar solucion a este ejercicio podemos realiarlo mediante una cola de prioridad. Una cola de prioridad es una estructura de datos que permite al menos las siguientes dos operaciones: insertar, que añade elementos a la cola, y eliminar mínimo, que busca, devuelve y elimina el elemento mínimo de la cola.
-
-![image](https://user-images.githubusercontent.com/116702376/206077069-f40e483a-c4b0-4e96-b19a-769be8dcecd2.png)
-
-C´omo a˜nadir un nuevo elemento? Una posibilidad  consiste en colocar el nuevo elemento como ultimo elemento del monticulo , justo a la derecha del
-ultimo o como primero de un nuevo nivel. Para ello hay que localizar al padre de la primera hoja y sustituirla por un nuevo nodo con el elemento a insertar. A continuaci´on hay que reestablecer el orden de montıculo empleando para ello un procedimiento flotar, que trabaja de manera similar pero a la inversa de hundir: el nodo en curso se compara con su nodo padre y se realiza el intercambio si ´este es mayor que el padre, iterando este paso mientras sea necesario.
-
-1. A[1] contiene la ra´ız
-2.  Si 2i ≤ n entonces A[2i] contiene al hijo izquierdo  del elemento en A[i] y si 2i + 1 ≤ n entonces A[2i+1] contiene al hijo derecho de A[i].
-3.  Si i div 2 ≥ 1 entonces A[i div 2] contiene al padre de A[i].
-
+# EJERCICIO 8
 # EJERCICIO 9
-
+# EJERCICIO 10
 # AUTORES
-
 # REFERENCIAS
-
-  
