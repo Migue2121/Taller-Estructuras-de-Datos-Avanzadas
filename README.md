@@ -1,9 +1,10 @@
 # Taller Estructuras de Datos Avanzadas
 
-<img src="https://user-images.githubusercontent.com/116528826/206042675-3efa56d6-42f3-48bd-88cb-7e546cc7aa5a.png" height="225"/>![image](https://user-images.githubusercontent.com/116528826/206045357-ed65e883-9fb1-4243-a453-391b6e21a76c.png)
+<img src="https://user-images.githubusercontent.com/116528826/206042675-3efa56d6-42f3-48bd-88cb-7e546cc7aa5a.png" width="225" height="225"/><img src="https://user-images.githubusercontent.com/116528826/206077132-98068585-6729-439f-b212-a1fea3fb7c4b.png"
+height="225"/><img src="https://codeforces.org/s/96362/images/codeforces-sponsored-by-ton.png"
+width="225" height="225"/>![image](https://user-images.githubusercontent.com/116528826/206045357-ed65e883-9fb1-4243-a453-391b6e21a76c.png)
 
-
-El presente taller lo que busca es que atreves de diferentes problemas tomados del sitio web (Leetcode) implementemos estructuras de datos avanzadas de acuerdo a cada problema para encontrar la solución más óptimas. Se realiza un análisis de cada solución propuesta de acuerdo a la estructura implementada. 
+El presente taller lo que busca es que atreves de diferentes problemas tomados de los sitio web(Leetcode,codeForce,AtCoder) implementemos estructuras de datos avanzadas, de acuerdo a cada problema para encontrar la solución más óptimas. Se realiza un análisis de cada solución propuesta de acuerdo a la estructura implementada.
 
 
 # EJERCICIO  1
@@ -287,6 +288,6 @@ ultimo o como primero de un nuevo nivel. Para ello hay que localizar al padre de
 3.  Si i div 2 ≥ 1 entonces A[i div 2] contiene al padre de A[i].
 
 # EJERCICIO 9
-# EJERCICIO 10
+
 # AUTORES
 # REFERENCIAS
