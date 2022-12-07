@@ -48,6 +48,8 @@ Un árbol de búsqueda binario válido (BST) tiene TODOS los hijos a la izquierd
 3. Validar recursivamente los hijos izquierdos del nodo, con el límite máximo establecido en el valor del nodo
 4. Validar recursivamente los hijos correctos del nodo, con el límite mínimo establecido en el valor del nodo
  
+ ![image](https://user-images.githubusercontent.com/116702376/206080081-4ec7f87c-3ad3-47b8-88ca-1bdd8064887f.png)
+
 
 # EJERCICIO 4
 Minimum Height Trees:
