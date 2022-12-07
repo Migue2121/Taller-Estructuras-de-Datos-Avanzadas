@@ -288,6 +288,24 @@ ultimo o como primero de un nuevo nivel. Para ello hay que localizar al padre de
 3.  Si i div 2 ≥ 1 entonces A[i div 2] contiene al padre de A[i].
 
 # EJERCICIO 9
+Contar enteros distintos.
+
+El ejercicio nos pide como dato de entrada una secuencia de enteros N, y se espera en su salida que imprima la cantidad de enteros diferentes que existen en la secuencia mencionada anteriormente.
+
+![image](https://user-images.githubusercontent.com/113552219/206086298-6b4bb432-43e9-4ea5-bcfe-ea2adc174ee1.png)
+
+-la secuencia de numeros deben ser entre 1 a 1000.
+-todos los valores deben ser enteros.
+-ai debe ser entre 1 a 10 elevado a la 9.
+
+El input se debe ingresar de la siguiente manera.
+
+![image](https://user-images.githubusercontent.com/113552219/206087172-6452f2c8-f90d-4057-85d2-efa121414f35.png)
+
+y el output deberia mostrar.
+
+![image](https://user-images.githubusercontent.com/113552219/206087255-7b5ea2db-6bc0-48d0-9cdf-82c4cabcf0cf.png)
+
 
 # AUTORES
 # REFERENCIAS
