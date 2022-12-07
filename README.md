@@ -32,7 +32,8 @@ Un árbol de búsqueda binario válido (BST) tiene TODOS los hijos a la izquierd
 2. Si el valor de un nodo no está dentro de estos límites, devuelve falso
 3. Validar recursivamente los hijos izquierdos del nodo, con el límite máximo establecido en el valor del nodo
 4. Validar recursivamente los hijos correctos del nodo, con el límite mínimo establecido en el valor del nodo
- 
+ ![image](https://user-images.githubusercontent.com/116702376/206068509-3cc99aa0-7918-4876-b35f-c41c3c1a819d.png)
+
 
 # EJERCICIO 4
 # EJERCICIO 5
