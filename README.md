@@ -202,14 +202,6 @@ Tenemos un gráfico bidireccional en este problema, la tarea es: para los dos no
 
 Ahora, tenemos que verificar si existe una ruta entre dos nodos dados. Una cosa más para notar, ya que tenemos que verificar si existe una ruta entre dos nodos dados, esto también sugiere que dos nodos deben estar conectados , por lo tanto, este problema también se puede resolver usando Disjoint Set Union , donde verificamos si ambos nodos pertenecen al mismo grupo o no.
 
-
-
-
-
-
-
-
-
 # EJERCICIO 7
 
 Nodo auxiliar : color naranja
@@ -260,15 +252,21 @@ Esto se repite por todo el arreglo de la siguiente manera:
 
 ![image](https://user-images.githubusercontent.com/113552219/206065647-fbc49fac-2822-4c8d-bcad-9ce462c8d5fe.png)
 
+Se asigna el valor de silver medal por ser equivalente a dos.
+
 ![image](https://user-images.githubusercontent.com/113552219/206065675-d0ceaf37-c41c-4480-8f37-1306009b80c9.png)
 
 ![image](https://user-images.githubusercontent.com/113552219/206065783-8bda356a-f594-4808-81be-61d926638abd.png)
 
 ![image](https://user-images.githubusercontent.com/113552219/206065805-deadcf02-6b10-4a50-b11b-a90abfd6b24c.png)
 
+Se asigna el valor de bronze medal por ser equivalente a tres.
+
 ![image](https://user-images.githubusercontent.com/113552219/206065820-85f3ca17-cc48-4d8c-8896-e94b7f4e6787.png)
 
 ![image](https://user-images.githubusercontent.com/113552219/206065845-05685b12-48ff-4a4c-aa90-b076c12cc6ba.png)
+
+Asi se continua por todo el recorrido asignando el valor del nodo de la posicion n.
 
 ![image](https://user-images.githubusercontent.com/113552219/206065968-89f957ec-fbc9-4948-8fec-54f4c7c9fb98.png)
 
