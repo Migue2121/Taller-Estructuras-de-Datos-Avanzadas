@@ -308,4 +308,25 @@ y el output deberia mostrar.
 
 
 # AUTORES
+
 # REFERENCIAS
+
+   EJERCICIO 1 https://leetcode.com/problems/complete-binary-tree-inserter/
+   
+   EJERCICIO 2 https://leetcode.com/problems/binary-tree-inorder-traversal/
+   
+   EJERCICIO 3 https://leetcode.com/problems/validate-binary-search-tree/
+   
+   EJERCICIO 4 https://leetcode.com/problems/minimum-height-trees/
+   
+   EJERCICIO 5 https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/
+   
+   EJERCICIO 6  https://leetcode.com/problems/find-if-path-exists-in-graph/
+   
+   EJERCICIO 7 https://leetcode.com/problems/relative-ranks/
+   
+   EJERCICIO 8 https://codeforces.com/problemset/problem/681/C
+   
+   EJERCICIO 9 https://atcoder.jp/contests/abc240/tasks/abc240_b?lang=en
+
+
