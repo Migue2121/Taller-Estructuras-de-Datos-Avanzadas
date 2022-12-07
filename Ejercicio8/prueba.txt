@@ -1,0 +1,247 @@
+246
+insert 10
+getMin 693
+removeMin 
+insert 342
+getMin 557
+getMin 534
+removeMin 
+insert 880
+insert 936
+getMin 167
+insert 48
+removeMin 
+insert 683
+getMin 810
+insert 727
+removeMin 
+insert 508
+insert 804
+insert 545
+getMin 349
+removeMin 
+getMin 196
+removeMin 
+removeMin 
+insert 289
+removeMin 
+removeMin 
+removeMin 
+removeMin 
+removeMin 
+getMin 60
+getMin 807
+insert 954
+removeMin 
+insert 145
+getMin 317
+removeMin 
+insert 384
+removeMin 
+insert 363
+removeMin 
+removeMin 
+getMin 329
+removeMin 
+insert 718
+getMin 585
+removeMin 
+getMin 19
+removeMin 
+getMin 310
+removeMin 
+getMin 240
+getMin 111
+removeMin 
+insert 190
+insert 279
+insert 244
+insert 444
+getMin 412
+removeMin 
+removeMin 
+getMin 150
+insert 670
+getMin 740
+getMin 886
+insert 143
+insert 972
+getMin 59
+getMin 266
+removeMin 
+insert 686
+removeMin 
+insert 207
+removeMin 
+insert 589
+getMin 232
+getMin 241
+insert 160
+removeMin 
+getMin 446
+getMin 699
+getMin 619
+insert 80
+getMin 268
+insert 202
+getMin 963
+insert 427
+getMin 442
+removeMin 
+removeMin 
+insert 761
+removeMin 
+insert 334
+insert 639
+insert 228
+removeMin 
+removeMin 
+removeMin 
+removeMin 
+getMin 766
+getMin 375
+removeMin 
+insert 970
+getMin 233
+getMin 997
+insert 440
+insert 828
+getMin 339
+insert 897
+getMin 393
+removeMin 
+removeMin 
+getMin 60
+insert 282
+removeMin 
+removeMin 
+removeMin 
+insert 832
+insert 910
+removeMin 
+removeMin 
+insert 280
+insert 769
+getMin 770
+removeMin 
+insert 271
+removeMin 
+insert 577
+getMin 517
+removeMin 
+getMin 202
+getMin 108
+getMin 791
+removeMin 
+insert 155
+removeMin 
+insert 487
+removeMin 
+insert 988
+insert 449
+insert 233
+getMin 670
+getMin 455
+removeMin 
+removeMin 
+removeMin 
+getMin 917
+getMin 944
+removeMin 
+removeMin 
+getMin 450
+insert 820
+insert 989
+insert 675
+removeMin 
+removeMin 
+getMin 441
+getMin 299
+insert 615
+getMin 26
+removeMin 
+insert 92
+insert 28
+getMin 505
+insert 466
+insert 197
+removeMin 
+removeMin 
+getMin 221
+removeMin 
+insert 739
+getMin 931
+insert 476
+getMin 183
+getMin 774
+removeMin 
+insert 355
+getMin 80
+getMin 352
+insert 250
+insert 482
+insert 374
+removeMin 
+removeMin 
+insert 329
+insert 776
+getMin 709
+insert 737
+insert 125
+insert 924
+insert 205
+getMin 747
+insert 269
+removeMin 
+getMin 276
+getMin 406
+insert 369
+getMin 43
+getMin 654
+getMin 906
+insert 359
+insert 926
+removeMin 
+getMin 504
+getMin 315
+insert 210
+insert 823
+removeMin 
+insert 910
+insert 369
+getMin 215
+getMin 573
+removeMin 
+getMin 80
+removeMin 
+removeMin 
+getMin 313
+removeMin 
+getMin 690
+getMin 572
+removeMin 
+insert 574
+insert 831
+removeMin 
+getMin 359
+removeMin 
+insert 327
+insert 575
+removeMin 
+removeMin 
+removeMin 
+removeMin 
+insert 454
+insert 831
+getMin 7
+getMin 524
+insert 681
+getMin 401
+removeMin 
+insert 68
+getMin 200
+getMin 881
+insert 475
+getMin 562
+getMin 55
+getMin 475
