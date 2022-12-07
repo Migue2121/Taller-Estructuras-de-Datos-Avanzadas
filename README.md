@@ -309,8 +309,11 @@ y el output deberia mostrar.
 
 # AUTORES
 Miguel Angel Lara Villamizar - 1152121
+
 Santiago Moreno Gentil - 1152052
+
 Angie Marcela Morales De Meza - 1152147
+
 Ana María Moreno Casadigo - 1152073
 
 # REFERENCIAS
