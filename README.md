@@ -261,6 +261,9 @@ Asi se continua con los demas valores asignandole el valor del nodo en la posici
 ![image](https://user-images.githubusercontent.com/113552219/206065995-af041092-5233-47f2-aba4-5056a64888bd.png)
 # EJERCICIO 8
 # EJERCICIO 9
-# EJERCICIO 10
+
 # AUTORES
+
 # REFERENCIAS
+
+  
