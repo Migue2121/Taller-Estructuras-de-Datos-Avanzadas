@@ -20,6 +20,10 @@ Lo primero es comparar el nuevo elemento con la raíz. Como 6 > 4, entonces la b
 ![image](https://user-images.githubusercontent.com/116702376/206059288-4a541278-4c2d-43ec-9fbc-93699a7bde16.png)
 
 # EJERCICIO 2
+m
+
+
+
 # EJERCICIO 3
 Validar árbol de búsqueda binaria: 
 Un árbol de búsqueda binario válido (BST) tiene TODOS los hijos a la izquierda con valores menores que el nodo padre y TODOS los hijos a la derecha con valores mayores que el nodo padre.
