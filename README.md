@@ -195,6 +195,7 @@ en el siguiente ejercicio nos daba como entrada un arreglos de arreglos donde es
 
 Tenemos un gráfico bidireccional en este problema, la tarea es: para los dos nodos sourcey destinationen este gráfico, debemos verificar si existe una ruta desde sourcea destination.
 ![image](https://user-images.githubusercontent.com/104114772/206078911-f2ffec2a-244c-4352-8057-689489f7f146.png)
+
 *En el primer gráfico, existe un camino de 0a 2.
 
 *En el segundo gráfico, no podemos encontrar un camino de 0a 7.
