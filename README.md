@@ -20,18 +20,7 @@ Lo primero es comparar el nuevo elemento con la raíz. Como 6 > 4, entonces la b
 ![image](https://user-images.githubusercontent.com/116702376/206059288-4a541278-4c2d-43ec-9fbc-93699a7bde16.png)
 
 # EJERCICIO 2
-estudio en este metodo debemos tener en cuenta el recorrido de árboles se refiere al proceso de visitar de una manera sistemática, exactamente una vez, cada nodo en una estructura de datos de árbol.
-empujar todos los hijos izquierdos de un Nodo en la pila, para que mi idea se vea clara:
-
-1.Empujamos todos los hijos restantes de root en la pila hasta que no haya más nodos.
-
-2.Luego saltamos de la pila a la que llamaríamos cur.
-
-3.Agregar cura la lista de resultados
-
-4.Llama recursivamente pushAllLeft()al curhijo derecho de 
-![image](https://user-images.githubusercontent.com/104114772/206062599-cf0400ea-0183-417e-a80f-1f97c028d1ef.png)
-
+m
 
 
 
@@ -47,6 +36,91 @@ Un árbol de búsqueda binario válido (BST) tiene TODOS los hijos a la izquierd
 
 # EJERCICIO 4
 # EJERCICIO 5
+Target : color verde 
+Nodo auxiliar : color naranja
+Nodos recorridos: color amarillo
+
+Primero se tiene un árbol original en el que se quiere trabajar.
+
+![Captura de pantalla_20221206_080655](https://user-images.githubusercontent.com/113552219/206062685-cae60e26-80c6-4366-8c04-e73016afc368.png)
+
+Y un árbol clon del árbol original.
+
+![image](https://user-images.githubusercontent.com/113552219/206062745-e65dbd9f-71f3-4bfe-a588-f556a913c541.png)
+
+Se asigna un nodo ha ser buscado (Ej: 6) , este es el nodo target.
+
+![Captura de pantalla_20221206_092838](https://user-images.githubusercontent.com/113552219/206062830-37308545-3be3-46e7-8e20-117996eb47c5.png)
+
+Se debe buscar el valor del nodo target en el árbol clon, se empieza a recorrer por niveles el árbol clon nodo por nodo comparando sus valores, hasta que el valor del nodo target sea el mismo valor de algún nodo del árbol clon.
+
+![image](https://user-images.githubusercontent.com/113552219/206062925-2c012864-0fd2-4402-8a50-108f4a1cb933.png)
+
+Empieza el recorrido en el nodo raíz.
+
+![Captura de pantalla_20221206_094251](https://user-images.githubusercontent.com/113552219/206062999-a8610f3a-25d7-460c-ae8d-a1ab302c78a3.png)
+
+y se comparan los valores del nodo target y el nodo raíz.
+
+![Captura de pantalla_20221206_100040](https://user-images.githubusercontent.com/113552219/206063123-00c7142d-6ce3-4b83-8b93-7cc0bfb036e5.png)
+   
+![image](https://user-images.githubusercontent.com/113552219/206063187-569e4044-f110-4780-ae92-a7f3adc70f8c.png)
+
+entra la siguiente condición en la que si los nodos hijos no existen retorna null.
+
+![Captura de pantalla_20221206_100520](https://user-images.githubusercontent.com/113552219/206063281-659d694c-fbc6-4911-afde-4d46b9ce255c.png)
+
+como no se cumple la condición se sigue el recorrido en el orden mencionado anteriormente.
+
+![Captura de pantalla_20221206_101202](https://user-images.githubusercontent.com/113552219/206063334-7cad9df2-8dc6-4c05-9eac-6b0ee9be43f4.png)
+
+![Captura de pantalla_20221206_101436](https://user-images.githubusercontent.com/113552219/206063365-aa5235e0-1ed7-4e9e-a87f-b7d351b1614e.png)
+
+Se comparan los valores de los nodos.
+
+![image](https://user-images.githubusercontent.com/113552219/206063448-f156eba0-607e-4c84-9131-613637e4ceac.png)
+
+como no se cumple la condición, sigue el recorrido.
+
+![Captura de pantalla_20221206_101858](https://user-images.githubusercontent.com/113552219/206063487-6d15074d-737e-4b2b-9949-4dac02cff9f3.png)
+                    
+![Captura de pantalla_20221206_101925](https://user-images.githubusercontent.com/113552219/206063562-d93b0204-e98b-47a3-aa96-f4c4bdb3956a.png)
+
+luego vuelve a empezar el recorrido, ahora como nodo raíz el indicado en la figura anterior.
+
+![Captura de pantalla_20221206_100040](https://user-images.githubusercontent.com/113552219/206063630-5a40ffef-afe6-4043-98bf-d6356ca6e67b.png)
+
+![image](https://user-images.githubusercontent.com/113552219/206063716-8eee4abf-0590-468e-8f1c-3763276b2cee.png)
+
+como no se cumple la condición sigue el recorrido.
+
+![Captura de pantalla_20221206_101202](https://user-images.githubusercontent.com/113552219/206063817-bff638e1-463d-4286-831e-5d7321e7d9d6.png)
+
+![Captura de pantalla_20221206_102343](https://user-images.githubusercontent.com/113552219/206063977-dc2d163e-9ea5-4bd1-88fc-63f7669c1b9c.png)
+
+
+se comparan los valores de los nodos
+
+![image](https://user-images.githubusercontent.com/113552219/206064032-b3c8b5e0-be03-475b-9b51-496d555d2197.png)
+
+como se cumple la condición, retorna el resultado (res = 6).
+
+![Captura de pantalla_20221206_102638](https://user-images.githubusercontent.com/113552219/206064069-47e754b0-70f6-414f-9700-56cffe85aa8e.png)
+
+
+
+
+
+
+
+
+
+
+
+Se encuentra el valor y se imprime el valor del nodo.
+
+
+
 # EJERCICIO 6
 # EJERCICIO 7
 # EJERCICIO 8
