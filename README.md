@@ -14,8 +14,11 @@ Estudio del ejercicio:
 Solía pushAllLeft()  empujar todos los hijos izquierdos de un Nodo en la pila, para que mi idea se vea clara:
 
 1)Empujamos todos los hijos restantes de root en la pila hasta que no haya más nodos.
+
 2)Luego saltamos de la pila a la que llamaríamos cur.
+
 3)Agregar cura la lista de resultados
+
 4)Llama recursivamente pushAllLeft()al curhijo derecho de .
 
 * ejemplo 
