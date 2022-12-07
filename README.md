@@ -45,8 +45,7 @@ Un árbol de búsqueda binario válido (BST) tiene TODOS los hijos a la izquierd
 2. Si el valor de un nodo no está dentro de estos límites, devuelve falso
 3. Validar recursivamente los hijos izquierdos del nodo, con el límite máximo establecido en el valor del nodo
 4. Validar recursivamente los hijos correctos del nodo, con el límite mínimo establecido en el valor del nodo
- ![image](https://user-images.githubusercontent.com/116702376/206073892-cf51c089-8974-4512-b3e9-de34d439ceac.png)
-
+ 
 
 # EJERCICIO 4
 Minimum Height Trees:
@@ -239,15 +238,21 @@ Esto se repite por todo el arreglo de la siguiente manera:
 
 ![image](https://user-images.githubusercontent.com/113552219/206065647-fbc49fac-2822-4c8d-bcad-9ce462c8d5fe.png)
 
+Se asigna el valor de silver medal por ser equivalente a dos.
+
 ![image](https://user-images.githubusercontent.com/113552219/206065675-d0ceaf37-c41c-4480-8f37-1306009b80c9.png)
 
 ![image](https://user-images.githubusercontent.com/113552219/206065783-8bda356a-f594-4808-81be-61d926638abd.png)
 
 ![image](https://user-images.githubusercontent.com/113552219/206065805-deadcf02-6b10-4a50-b11b-a90abfd6b24c.png)
 
+Luego se asigna el valor de bronze medal por ser equivalente a 3
+
 ![image](https://user-images.githubusercontent.com/113552219/206065820-85f3ca17-cc48-4d8c-8896-e94b7f4e6787.png)
 
 ![image](https://user-images.githubusercontent.com/113552219/206065845-05685b12-48ff-4a4c-aa90-b076c12cc6ba.png)
+
+Asi se continua con los demas valores asignandole el valor del nodo en la posicion n.
 
 ![image](https://user-images.githubusercontent.com/113552219/206065968-89f957ec-fbc9-4948-8fec-54f4c7c9fb98.png)
 
