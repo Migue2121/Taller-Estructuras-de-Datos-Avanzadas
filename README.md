@@ -260,10 +260,20 @@ Asi se continua con los demas valores asignandole el valor del nodo en la posici
 
 ![image](https://user-images.githubusercontent.com/113552219/206065995-af041092-5233-47f2-aba4-5056a64888bd.png)
 # EJERCICIO 8
+Operaciones de montón:
+Para dar solucion a este ejercicio podemos realiarlo mediante una cola de prioridad. Una cola de prioridad es una estructura de datos que permite al menos las siguientes dos operaciones: insertar, que añade elementos a la cola, y eliminar mínimo, que busca, devuelve y elimina el elemento mínimo de la cola.
+
+![image](https://user-images.githubusercontent.com/116702376/206077069-f40e483a-c4b0-4e96-b19a-769be8dcecd2.png)
+
+C´omo a˜nadir un nuevo elemento? Una posibilidad  consiste en colocar el nuevo elemento como ultimo elemento del monticulo , justo a la derecha del
+ultimo o como primero de un nuevo nivel. Para ello hay que localizar al padre de la primera hoja y sustituirla por un nuevo nodo con el elemento a insertar. A continuaci´on hay que reestablecer el orden de montıculo empleando para ello un procedimiento flotar, que trabaja de manera similar pero a la inversa de hundir: el nodo en curso se compara con su nodo padre y se realiza el intercambio si ´este es mayor que el padre, iterando este paso mientras sea necesario.
+
+1. A[1] contiene la ra´ız
+2.  Si 2i ≤ n entonces A[2i] contiene al hijo izquierdo  del elemento en A[i] y si 2i + 1 ≤ n entonces A[2i+1] contiene al hijo derecho de A[i].
+3.  Si i div 2 ≥ 1 entonces A[i div 2] contiene al padre de A[i].
+
+
 # EJERCICIO 9
-
+# EJERCICIO 10
 # AUTORES
-
 # REFERENCIAS
-
-  
