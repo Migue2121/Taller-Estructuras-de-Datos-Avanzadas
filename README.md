@@ -20,7 +20,18 @@ Lo primero es comparar el nuevo elemento con la raíz. Como 6 > 4, entonces la b
 ![image](https://user-images.githubusercontent.com/116702376/206059288-4a541278-4c2d-43ec-9fbc-93699a7bde16.png)
 
 # EJERCICIO 2
-m
+estudio en este metodo debemos tener en cuenta el recorrido de árboles se refiere al proceso de visitar de una manera sistemática, exactamente una vez, cada nodo en una estructura de datos de árbol.
+empujar todos los hijos izquierdos de un Nodo en la pila, para que mi idea se vea clara:
+
+1.Empujamos todos los hijos restantes de root en la pila hasta que no haya más nodos.
+
+2.Luego saltamos de la pila a la que llamaríamos cur.
+
+3.Agregar cura la lista de resultados
+
+4.Llama recursivamente pushAllLeft()al curhijo derecho de 
+![image](https://user-images.githubusercontent.com/104114772/206062599-cf0400ea-0183-417e-a80f-1f97c028d1ef.png)
+
 
 
 
